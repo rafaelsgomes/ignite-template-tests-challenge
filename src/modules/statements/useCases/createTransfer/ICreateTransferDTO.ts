@@ -1,11 +1,10 @@
 import { Statement } from "../../entities/Statement";
 
-export type ICreateStatementDTO =
+export type ICreateTransferDTO =
 Pick<
   Statement,
   'user_id' |
-  'reciver_id' |
   'description' |
   'amount' |
-  'type'
+  'reciver_id'
 >
